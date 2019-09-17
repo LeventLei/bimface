@@ -1,0 +1,25 @@
+.BimfaceApp {
+  position: relative;
+  height: 100%;
+
+  .btnGroup {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    z-index: 1;
+
+    .button {
+      width: 90px;
+      height: 30px;
+      border-radius: 3px;
+      border: none;
+      background: #11DAB7;
+      color: #FFFFFF;
+      z-index: 999;
+			margin: 5px;
+			cursor: pointer;
+    }
+  }
+}
